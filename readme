@@ -1,0 +1,26 @@
+
+
+CREATE SCHEMA 'restdb';
+
+
+6 CREATE TABLE `restdb' 'employee' ( empID INT NOT NULL,
+'empName' VARCHAR(45) NULL,
+
+'age 'INT NULL,
+
+'contact Number' VARCHAR(45) NULL,
+
+'email' VARCHAR(45) NULL, PRIMARY KEY ('empID'));
+
+SQL TO INSERT
+
+INSERT INTO `restdb' 'employee' ('empID', 'empName', 'age',' contactNumber', 'email') VALUES ('101', 'rakesh', '24',9564564956,'rakesh@gmail.com');
+
+
+POSTMAN
+
+employee
+
+GEY:http://localhost:808se/Rest7dbcApi/webapi/emp
+
+add EMP
